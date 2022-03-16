@@ -1,3 +1,51 @@
-body {
-  background: red;
+$purple: #a050be;
+$light-gray: #eaeaeb;
+$dark-gray: #464646;
+
+.header {
+  font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.header__logo {
+  text-align: center;
+}
+
+.header__logo .header__img {
+  max-width: 350px;
+}
+
+.header__menu .menu__list {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+}
+
+.header__menu .menu__list .menu__links {
+  position: relative;
+}
+
+.header__menu .menu__list .menu__links:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -3px;
+  margin: auto;
+  height: 15px;
+  width: 1px;
+  background-color: $light-gray;
+}
+
+.header__menu .menu__list .menu__links .menu__link {
+  padding: 0 25px;
+  color: $dark-gray;
+}
+
+.header__menu .menu__list .menu__links .menu__link:hover {
+  color: $purple;
 }
