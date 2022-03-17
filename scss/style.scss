@@ -1,3 +1,4 @@
+/// Color palette
 $purple: #a050be;
 $light-gray: #eaeaeb;
 $dark-gray: #464646;
@@ -48,4 +49,28 @@ $dark-gray: #464646;
 
 .header__menu .menu__list .menu__links .menu__link:hover {
   color: $purple;
+}
+
+/* ---------------
+  Footer
+   --------------- */ 
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Arial', Helvetica, sans-serif;
+  // this scope places the footer down of the screen
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer .footer__logo {
+  max-width: 100px;
+}
+
+.footer .footer__txt {
+  margin: auto;
+  font-size: 14px;
 }
