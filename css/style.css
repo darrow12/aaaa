@@ -51,12 +51,10 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
-.footer .footer__logo {
+.footer__logo {
   max-width: 100px;
 }
-
-.footer .footer__txt {
+.footer__txt {
   margin: auto;
   font-size: 14px;
 }
