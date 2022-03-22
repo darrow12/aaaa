@@ -148,7 +148,7 @@ $img-width: 45%;
   &__content {
     width: 70%;
     padding: 40px 8px;
-    
+
     @include for-phone-only {
       width: 100%;
     }
@@ -292,7 +292,7 @@ $img-width: 45%;
       flex-wrap: wrap;
       align-items: center;
       padding: 15px 0;
-
+      
       &:not(:last-child) {
         border-bottom: 1px dashed $light-gray;
       }
@@ -332,6 +332,10 @@ $img-width: 45%;
   width: 80%;
   margin: 0 auto 40px;
   font-family: "Arial", Helvetica, sans-serif;
+
+  @include for-phone-only {
+    width: 90%;
+  }
 
   &__title {
     color: $light-gray;
@@ -379,6 +383,14 @@ $img-width: 45%;
     margin: 30px auto;
     text-align: center;
     font-size: 16px;
+
+    @include for-phone-only {
+      width: 90%;
+    }
+
+    @include for-tablet-only {
+      width: 80%;
+    }
   }
 
   &__split {
@@ -390,12 +402,21 @@ $img-width: 45%;
 
   &__img-description {
     width: $img-width;
+
+    @include for-phone-only {
+      width: 80%;
+    }
   }
 
   &__txt {
     width: calc(
       100% - #{$img-width}
     ); // Interpolation in Sass! Representation on screen: img    text
+
+    @include for-phone-only {
+      width: 90%;
+      text-align: center;
+    }
   }
 
   &__p {
@@ -409,6 +430,10 @@ $img-width: 45%;
   width: 80%;
   margin: 0 auto 40px;
   font-family: "Arial", Helvetica, sans-serif;
+
+  @include for-phone-only {
+    width: 90%;
+  }
 
   &__title {
     background-color: $light-gray;
