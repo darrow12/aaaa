@@ -18,6 +18,11 @@ $img-width: 45%;
   list-style: none;
 }
 
+@mixin flx($property, $jty-center) {
+  display: flex;
+  #{$property}: $jty-center;
+}
+
 /* ---------------
   Header
    --------------- */
