@@ -27,6 +27,17 @@ Gatito Pet Shop: the biggest and best blog for pets!
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/darrow12/gatito-petshop?label=Repository size&color=5965e0&labelColor=000000">
 </p>
+<br>
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Gatito Petshop**
+| :label: Tecnologias | html, css, scss
+| :rocket: URL         | https://darrow12.github.io/gatito-petshop/
+| :fire: Desafio     | Não tem
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![gatito](https://user-images.githubusercontent.com/47289706/189890246-eac140e0-dcca-4124-8798-50bc2b51f9b6.png#vitrinedev)
 
 <br>
 <br>
