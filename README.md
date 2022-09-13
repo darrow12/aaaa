@@ -37,7 +37,7 @@ Gatito Pet Shop: the biggest and best blog for pets!
 | :fire: Desafio     | Não tem
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![gatito](https://user-images.githubusercontent.com/47289706/189890246-eac140e0-dcca-4124-8798-50bc2b51f9b6.png#vitrinedev)
+![](https://user-images.githubusercontent.com/47289706/189890246-eac140e0-dcca-4124-8798-50bc2b51f9b6.png#vitrinedev)
 
 <br>
 <br>
